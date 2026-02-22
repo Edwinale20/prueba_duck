@@ -13,6 +13,9 @@ st.set_page_config(
     initial_sidebar_state="expanded"  # Barra lateral expandida al inicio
 )
 
+st.subheader("Este es un código para poder hacer pruebas de consultas de SQL y llevarlas a la práctica")
+
+
 def eliminarTablas():
     """
     Elimina todas las tablas existentes en la base de datos DuckDB.
